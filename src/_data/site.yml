@@ -47,3 +47,30 @@ sectionList:
 
   - who: Accessories
     id: accessories
+
+
+# This is the same code above in json
+#{
+#  "sectionList": [
+#    {
+#      "who": "Model 3",
+#      "text": "Order online for",
+#      "link": "Touchless delivery",
+#      "id": "model-3",
+#      "buttonList": [
+#        "Custom order",
+#        "Existing delivery"
+#      ]
+#    },
+#    {
+#      "who": "Model y",
+#      "text": "Order online for",
+#      "link": "Touchless delivery",
+#      "id": "model-y",
+#      "buttonList": [
+#        "Custom order",
+#        "Existing delivery"
+#      ]
+#    }
+#  ]
+#}

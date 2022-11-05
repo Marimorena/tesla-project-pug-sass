@@ -8,9 +8,13 @@
   grid-template-columns: repeat(2, auto)
   background-color: hsla(69, 99%, 100%, .75)
 
+
+//  & > .title  mean the direct child title of panel
   & > .title
     grid-column: 1/-1
 
+
+// last child of the direct child text of panel
   & > .text:last-child
     grid-column: 1/-1
 

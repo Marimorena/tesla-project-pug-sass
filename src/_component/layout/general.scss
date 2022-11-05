@@ -1,4 +1,4 @@
-// color
+// color variables
 $color-gray-tuna: #393c41;
 $color-shark: #181b21;
 $color-mercury: #e3e3e3;
@@ -8,6 +8,7 @@ $color-light: #fff;
 $color-dark: #000;
 $border-radius: 20px;
 
+// * universal selector
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,13 +24,14 @@ body {
   background-color: $color-shark;
 }
 
-
+//  % is used to replace class . or id # selectors (used with @extend directive)
 %box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+// &__small replace box__small
 .box {
   &__small {
     gap: 16px;
@@ -43,3 +45,5 @@ body {
     @extend %box;
   }
 }
+
+// @extend -> box__large inherit the styles of .box
